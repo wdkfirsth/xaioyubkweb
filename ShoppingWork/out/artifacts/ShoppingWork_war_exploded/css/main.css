@@ -1,0 +1,92 @@
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+#all{
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    padding-bottom: 40px;
+}
+#foot{
+    clear: both;
+    position: absolute;
+    height: 30px;
+    bottom: 0;
+    text-align: center;
+    padding-top: 5px;
+    width: 100%;
+    color: red;
+}
+
+
+#navigationBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#header{
+    margin: 0 auto;
+    width: 960px;
+    background-color: rgba(0, 0, 0, 0.03);
+    height: 30px;
+    border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+    color: rgba(255, 33, 42, 0.66);
+}
+#header span a{
+    text-decoration: none;
+    color: rgba(255, 33, 42, 0.66);
+}
+#header span a:hover{
+    color: blue;
+}
+#navigationBar{
+    margin: 0 auto;
+    width: 960px;
+    height: 40px;
+    background-color: rgba(255,33,42,0.42);
+    margin-top: 20px;
+}
+#navigationBar dl dt{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+#navigationBar dl dt a{
+    text-decoration: none;
+    color: white;
+}
+#navigationBar dl dt:hover{
+    background-color: red;
+}
+#changGv{
+    margin: 0 auto;
+    width: 960px;
+}
+#show{
+    margin: 0 auto;
+    width: 960px;
+}
+.text{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.look,.shop{
+    /*display: inline-block;*/
+}
+.shop dl dt{
+    display: inline-block;
+}
+.look{
+    position: relative;
+    top: 0;
+}

@@ -1,0 +1,47 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+.text{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+.content{
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    border: 1px rgba(255,33,42,0.67) solid;
+    margin-top: 200px;
+}
+
+.neibu{
+    text-align: left;
+}
+.submit{
+    width: 100px;
+}
+.reset{
+    margin-left: 50px;
+    width: 100px;
+}
+.regitbtn{
+    text-align: left;
+}
+#rights{
+    display: inline-block;
+}
+.img{
+    vertical-align: top;
+}
